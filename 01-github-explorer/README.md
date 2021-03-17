@@ -1,6 +1,6 @@
 
 <p align="center">
-   <img src="https://i.ibb.co/3MGvrMz/Capa-Ignite-1.png" alt="logo-Bootcamp-Ignite-ReactJS" width="1584"/>
+   <img src="https://i.ibb.co/DVTQRWp/2560x1080.png" alt="logo-Bootcamp-Ignite-ReactJS" width="1584"/>
 
 </p>
 <p align="center">	
