@@ -58,6 +58,6 @@ Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 <br>
 
 <h4 align="center">
-    Feito com 💜 by <a href="https://www.linkedin.com/in/wellington123/" target="_blank">Wellington </a>
+    Feito com 💜 por <a href="https://www.linkedin.com/in/wellington123/" target="_blank">Wellington </a>
 </h4>
 

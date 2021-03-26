@@ -1,40 +1,22 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
 
-const isDevelopment = process.env.NODE_ENV !== 'production';
-
-module.exports={
-  mode: isDevelopment? 'development':'production',
-  devtool: isDevelopment? 'eval-source-map': 'source-map',
-  entry: path.resolve(__dirname,'src','index.jsx'),
-  output:{
-    path: path.resolve(__dirname,'dist'),
-    filename:'bundle.js'
+module.exports = {
+  mode: 'development', // Aponta para o Webpack qual o modo deverá ser utilizado para compilar os arquivos
+  entry: path.resolve(__dirname, 'src', 'index.jsx'), // Arquivo de entrada que o webpack irá buscar
+  output: {
+    path: path.resolve(__dirname, 'dist'), // Path da pasta destino com o código convertido pelo webpack
+    filename: 'bundle.js' // Nome do arquivo destino com o código convertido pelo webpack
   },
-  resolve:{
-    extensions:['.js','.jsx'],
+  resolve: {
+    extensions: ['.js', '.jsx'], // Extensões que o webpack irá aceitar (necessário pois estamos utilizando arquivos .jsx)
   },
-  devServer:{
-    contentBase:path.resolve(__dirname,'public'),
-  },
-  plugins:[
-    new HtmlWebpackPlugin({
-      template:path.resolve(__dirname, 'public', 'index.html')
-    })
-  ],
-  module:{
-    rules:[
+  module: { // Configurações para dizer ao webpack como se comportar para cada tipo de arquivo (.js, .png, etc)
+    rules: [ // Array de objetos contendo as regras para cada module
       {
-        test:/\.jsx$/,
-        exclude:/node_modules/,
-        use: 'babel-loader',
-      },
-      {
-        test:/\.scss$/,
-        exclude:/node_modules/,
-        use: ['style-loader','css-loader','sass-loader'],
+        test: /\.jsx$/, // Recebe um RegEx para testar se o arquivo é da extensão que queremos
+        exclude: /node_modules/, // Arquivos que serão ignorados na compilação desta regra
+        use: 'babel-loader' // Loader do Babel para compilar os arquivos JavaScript
       }
-
-    ]
+    ],
   }
-};
+}
