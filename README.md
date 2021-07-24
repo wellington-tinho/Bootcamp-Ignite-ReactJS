@@ -29,8 +29,7 @@
 
 
 ## 📖 Sobre 
-
-O Ignite é um programa de aceleração de carreira para quem já domina os fundamentos da programação e quer se preparar para as melhores oportunidades do mercado. Esse repositório contém todo código desenvolvido durante o bootcamp.
+ Esse repositório contém todo código desenvolvido durante o bootcamp Ignite que é um programa de aceleração de carreira para quem já domina os fundamentos da programação.
 
 
 
@@ -42,7 +41,7 @@ O Ignite é um programa de aceleração de carreira para quem já domina os fund
 </div>
 
 ## :pushpin: Conteúdo
-### Capítulo 1 - Fundamentos do ReactJS [:mag_right:](01-github-explorer)
+#### Capítulo 1 - Fundamentos do ReactJS [:mag_right:](01-github-explorer)
 Corresponde a introdução das principais tecnologias e conceitos que serão praticados.
 Nesse módulo foi criado uma estrutura base de uma aplicação React demonstrando o uso de ferramentas como Webpack, Babel, Webpack Dev server, SASS, Source Maps, Fast Refresh e  conceitos importantes do React como componentes, propriedades, estados e hooks além de aplicar o TypeScript no  projeto para adicionar tipagem estática à aplicação. [ver mais.... ](01-github-explorer)
 
