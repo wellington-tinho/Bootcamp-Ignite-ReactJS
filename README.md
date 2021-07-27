@@ -45,6 +45,9 @@
 Corresponde a introdução das principais tecnologias e conceitos que serão praticados.
 Nesse módulo foi criado uma estrutura base de uma aplicação React demonstrando o uso de ferramentas como Webpack, Babel, Webpack Dev server, SASS, Source Maps, Fast Refresh e  conceitos importantes do React como componentes, propriedades, estados e hooks além de aplicar o TypeScript no  projeto para adicionar tipagem estática à aplicação. [ver mais.... ](01-github-explorer)
 
+#### Capítulo 2 - Fundamentos do ReactJS [:mag_right:](02-dtmoney)
+Nesse módulo foi construido uma aplicação front-end web completa utilizando conceitos e ferramentas importantes do ecossistema React como Styled Components, MirageJS, Context API, hooks, Axios e etc.. [ver mais.... ](02-dtmoney)
+
 
 
 
