@@ -1,46 +1,58 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img src="https://i.ibb.co/DVTQRWp/2560x1080.png" alt="logo-Bootcamp-Ignite-ReactJS" width="1584"/>
 
-## Available Scripts
+</p>
+<p align="center">	
+   <a href="https://www.linkedin.com/in/wellington123/">
+      <!-- <img alt="Wellington" src="https://img.shields.io/badge/-Wellington123-3fb950?style=flat&logo=Linkedin&logoColor=white" /> -->
+       <img src="https://img.shields.io/badge/|-Wellington123 -3fb950?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGUSURBVDhPpZPLSwJRFMa/Gd+j1VBmJdmiUKIgaZMtqm37Nhn0VxQRQbRoEULbVm0jgrYtiiCQCEN3BT0IKU0iMtSxzLdOcy/jMFA0Sj+4nHMuc745995zmMBRRNwMC8hXamgFzqDDho8Hw62fio3koS4OT+kC6qJIYy2ICNtI3p0bRXRlBvfL0zDpWbqnBcmlX7IMA7+3j2667RwmXB3UbwYqQEreCT2jVhcRigu4lFazMFg9pge2SOfxSH9PZItI5yvgLQZ0mPXU/yxV4bAZ0W014jaZg/qKFIG9+TEsjjvx8lFE/1YQN0tTGHHYEE4IEApVzHrsNOH9q4yFgyucRVM0Vm7LZtRRa5UqIZAbJvhcvJJMIFXs+71ypBL4i7WTB7i3zxFJZGncIx+HoClA+iIQfEQ0lcfh9au8Cwx2ctRqCrzlSrIHpAsV2QN625qsQI30yj9oSeA3FIGqLN+wpKmoVT26ekYa1SjDRG52WHr3ZK6MO6lZSEs7282IZQqIS4tAZmRygKf+RSwDk47FP8eZxzfpe6Cfg2YdRQAAAABJRU5ErkJggg=="></img>
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wrtinho/Bootcamp-Ignite-ReactJS?color=3fb950">
 
-In the project directory, you can run:
+  <a aria-label="Completed" href="">
+    <img src="https://img.shields.io/badge/Ignite-ReactJS -3fb950?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+    
+  </a>
+  <a href="https://github.com/wrtinho/Bootcamp-Ignite-ReactJS/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wrtinho/Bootcamp-Ignite-ReactJS?color=3fb950">
+  </a> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-3fb950">
 
-### `yarn start`
+</p>
+   <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+<div align="center">
+   <sub>Desenvolvido por 
+    <a href="https://github.com/wrtinho">Wellington Rodrigues</a>.
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Chapter #2 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esta pasta contém o projeto desenvolvido durante as aulas deste modulo dispondo de uma aplicação front-end web completa utilizando conceitos do ecossistema React como Styled Components, MirageJS, Context API, hooks, Axios e etc
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Ao qual foi desenvolvido um app denominado de "dt money", que se trata de um gerenciador de finanças pessoais
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## :memo: Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lançado em 2021, esse projeto está sob a licença MIT. 
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+<br>
+
+<h4 align="center">
+    Feito com 💜 by <a href="https://www.linkedin.com/in/wellington123/" target="_blank">Wellington </a>
+</h4>
+

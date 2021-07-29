@@ -35,7 +35,7 @@
 
 ## 🚀 Chapter #1 
 
-Esta pasta contém o projeto desenvolvido durante as aulas deste modulo algumas dispondo de configurações iniciais relativo a um projeto React do zero, como por exemplo a adição do Babel, do Webpack, do TypeScript, etc. Sendo este modulo dividido em: 
+Esta pasta contém o projeto desenvolvido durante as aulas deste modulo, dispondo de configurações iniciais relativo a um projeto React do zero, como por exemplo a adição do Babel, do Webpack, do TypeScript, etc. Sendo este modulo dividido em: 
 - Configurando o Ambiente
 - Conceitos Importantes
 - Chamadas HTTP
