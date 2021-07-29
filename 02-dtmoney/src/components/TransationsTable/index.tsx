@@ -1,4 +1,4 @@
-import { Container } from "../Summary/styles";
+import { Container } from "./styles";
 
 export function TransationTable(){
   return (
@@ -15,21 +15,21 @@ export function TransationTable(){
         <tbody>
           <tr>
             <td>Desenvolvimento de Websites</td>
-            <td>R$12.000</td>
-            <td>Desenvolvimento</td>
+            <td className='deposit'>R$3.000</td>
+            <td>Trabalho</td>
             <td>20/02/2021</td>
           </tr>
           <tr>
-            <td>Desenvolvimento de Websites</td>
-            <td>R$12.000</td>
-            <td>Desenvolvimento</td>
-            <td>20/02/2021</td>
+            <td>Viagem</td>
+            <td className='withdraw'>-R$300</td>
+            <td>Lazer</td>
+            <td>24/08/2021</td>
           </tr>
           <tr>
-            <td>Desenvolvimento de Websites</td>
-            <td>R$12.000</td>
-            <td>Desenvolvimento</td>
-            <td>20/02/2021</td>
+            <td>Aluguel</td>
+            <td className='withdraw'>-R$1.000</td>
+            <td>Casa</td>
+            <td>29/08/2021</td>
           </tr>
         </tbody>
       </table>
