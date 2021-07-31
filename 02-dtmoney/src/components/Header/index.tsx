@@ -15,10 +15,6 @@ export function Header({ onOpenNewTransationModal }:HeaderProps) {
         <button type="button" onClick={onOpenNewTransationModal}>
           Nova transação
       </button>
-
-      
-
-
       </Content>
     </Container>
   );
