@@ -1,4 +1,5 @@
 import Modal from 'react-modal';
+import closeImg from '../../assets/close.svg'
 import { Container } from './styles'
 
 interface NewTrasationModalProps {
@@ -17,12 +18,17 @@ export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalPro
       >
       <Container>
         <h2>Cadastrar informação</h2>
+        <button 
+          type='button' 
+          onClick={onRequestClose}
+          className='react-modal-close'
+          > 
+          <img src={closeImg} alt="Fechar modal"/> 
+        </button>
         <input placeholder="Título"/>
         <input type="number" placeholder="Valor"/>
         <input placeholder="Categoria"/>
-        <button type="submit"> 
-          Cadastrar
-        </button>
+        <button type="submit"> Cadastrar  </button>
       </Container>
     </Modal>
 
