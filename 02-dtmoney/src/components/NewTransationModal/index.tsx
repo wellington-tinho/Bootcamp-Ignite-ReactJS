@@ -1,9 +1,9 @@
 import Modal from 'react-modal';
 import incomeImg from '../../assets/income.svg';
+import { FormEvent, useState } from 'react';
 import outcomeImg from '../../assets/outcome.svg';
 import closeImg from '../../assets/close.svg'
 import { Container, TransatcionTypeContainer, RadioBox } from './styles'
-import { useState } from 'react';
 
 interface NewTrasationModalProps {
   isOpen: boolean;
@@ -11,7 +11,22 @@ interface NewTrasationModalProps {
 }
 
 export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalProps) {
+  const [title, setTitle] = useState('')
+  const [value, setValue] = useState(0);
+  const [category, setCategory] = useState('');
   const [type, setType] = useState('deposit')
+
+  function handleCreateNewTransation(event: FormEvent) {
+    event.preventDefault();
+  }
+
+  console.log(
+    {
+      title, value, category, 
+    }
+  );
+  
+
   return(
     <Modal 
       isOpen={isOpen} 
@@ -19,7 +34,7 @@ export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalPro
       overlayClassName='react-modal-overlay' 
       className='react-modal-content'
       >
-      <Container>
+      <Container onSubmit={handleCreateNewTransation}>
         <h2>Cadastrar informação</h2>
         <button 
           type='button' 
@@ -28,8 +43,8 @@ export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalPro
           > 
           <img src={closeImg} alt="Fechar modal"/> 
         </button>
-        <input placeholder="Título"/>
-        <input type="number" placeholder="Valor"/>
+        <input placeholder="Título" value={title} onChange={event => setTitle(event.target.value)}/>
+        <input type="number" placeholder="Valor" value={value} onChange={event => setValue(Number(event.target.value))}/>
         <TransatcionTypeContainer>
           
           <RadioBox type="button" onClick={()=>{setType('deposit')}} isActive={type === 'deposit'} activeColor={'green'}>
@@ -43,7 +58,7 @@ export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalPro
           </RadioBox>
 
         </TransatcionTypeContainer>
-        <input placeholder="Categoria"/>
+        <input placeholder="Categoria" value={category} onChange={event => setCategory(event.target.value)}/>
         <button type="submit"> Cadastrar  </button>
       </Container>
     </Modal>
