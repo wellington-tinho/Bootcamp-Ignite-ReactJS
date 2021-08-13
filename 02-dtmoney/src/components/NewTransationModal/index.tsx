@@ -21,7 +21,7 @@ export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalPro
     event.preventDefault();
 
     const data =({
-        title, value, category, type 
+        title, value, category, type, 
       });
 
       api.post('/trasactions', data)
