@@ -20,11 +20,11 @@ export function NewTrasationModal({isOpen, onRequestClose}: NewTrasationModalPro
   function handleCreateNewTransation(event: FormEvent) {
     event.preventDefault();
 
-    const data =({
+    const data ={
         title, value, category, type, 
-      });
+      };
 
-      api.post('/trasactions', data)
+      api.post('/transactions', data)
     
   }
 
